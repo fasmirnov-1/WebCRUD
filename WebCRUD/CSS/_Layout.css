@@ -1,0 +1,18 @@
+﻿.screen
+{
+    width: 100%;
+}
+.header
+{
+    font-size: 20pt;
+    text-align: center;
+}
+.list
+{
+    width: 85%;
+    overflow-y:scroll;
+}
+.list_area
+{
+    vertical-align: top;
+}

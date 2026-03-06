@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="icon" href="data:,">
+
+    <link rel="stylesheet" href="~/CSS/_Layout.css"/>
+    <link rel="stylesheet" href="~/CSS/List.css"/>
+
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    @RenderSection("Scripts", false)
+</head>
+<body>
+    <table id="bkground" class="screen">
+        <tr>
+            <td id="hdr" class="header">
+                Выполнение тестового задания...
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @RenderPage("~/Views/List/Index.cshtml")
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

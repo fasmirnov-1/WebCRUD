@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DAL/DAL.csproj" Id="9edb98ff-3811-4f07-9220-1989a52ecea8" />
+  <Project Path="WebCRUD/WebCRUD.csproj" Id="08c47be6-6b7b-4e88-a52f-ebb378d67a6d" />
+</Solution>

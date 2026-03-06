@@ -1,0 +1,35 @@
+﻿@model WebCRUD.Models.MaterialRecord
+
+@{ 
+    Layout = "~/Views/Shared/_FormLayout.cshtml";
+}
+
+<table style="width: 100%;">
+    <tr>
+        <td class="header" colspan="2">
+            Добавление...
+        </td>
+    </tr>
+    <td>
+        &nbsp;
+    </td>
+    <td>
+        &nbsp;
+    </td>
+    <tr>
+        <td class="form_label">
+            Наименование:
+        </td>
+        <td>
+            @Html.TextBoxFor(Model => Model.Title, new { @Style = "width: 90%;", @Value = Model.Title ?? string.Empty })
+        </td>
+    </tr>
+    <tr>
+        <td class="form_label">
+            Тест
+        </td>
+        <td>
+            @Html.TextBoxFor(Model => Model.Tkin, new {@Style = "width: 90%;", @Value = Model.Tkin ?? string.Empty})
+        </td>
+    </tr>
+</table>
