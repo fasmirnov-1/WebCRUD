@@ -117,6 +117,7 @@
     <Content Include="CSS\List.css" />
     <Content Include="Global.asax" />
     <Content Include="CSS\_Layout.css" />
+    <Content Include="Read.me" />
     <None Include="Scripts\JQuery\jquery-3.7.1.intellisense.js" />
     <Content Include="Images\Add.png" />
     <Content Include="Images\pen.png" />
